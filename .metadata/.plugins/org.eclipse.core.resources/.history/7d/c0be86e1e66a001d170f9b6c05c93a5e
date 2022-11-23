@@ -30,25 +30,19 @@ class BaseBallGame {
 					break;
 				}
 			}
-			System.out.println("숫자가 생성되었습니다 : " + com[0] + com[1] + com[2] + com[3]); // 생성된 숫자 확인 및 무한루프를 도는지 확인 
+//			System.out.println("숫자가 생성되었습니다 : " + com[0] + com[1] + com[2] + com[3]); // 생성된 숫자 확인 및 무한루프를 도는지 확인 
 			for(int i=1; i<=pullGame; i++) { //유저가 플레이하는 로직은 이쪽이기에 이쪽의 while문을 for문으로 변경
 				strike = 0; // 새로운 게임이 시작될때마다 초기화
 				ball = 0;
-//				System.out.println("첫번째 : 1~9 숫자중 원하는 숫자를 하나만 입력하신 후에 엔터를 눌러주세요");
-//				user[0] = sc.nextInt();
-//				System.out.println("두번쨰 : 1~9 숫자중 원하는 숫자를 하나만 입력하신 후에 엔터를 눌러주세요");
-//				user[1] = sc.nextInt();
-//				System.out.println("세번째 : 1~9 숫자중 원하는 숫자를 하나만 입력하신 후에 엔터를 눌러주세요");
-//				user[2] = sc.nextInt();
-//				System.out.println("네번쨰 : 1~9 숫자중 원하는 숫자를 하나만 입력하신 후에 엔터를 눌러주세요");
-//				user[3] = sc.nextInt()
-				System.out.println("");
-				System.out.println("사용자가 원하는 숫자를 4개 입력하여 주세요");
-				System.out.println("숫자 입력시 띄어쓰기로 구분되며 마지막에 엔터를 입력하여 주시면 됩니다.");
+				System.out.println("첫번째 : 1~9 숫자중 원하는 숫자를 하나만 입력하신 후에 엔터를 눌러주세요");
 				user[0] = sc.nextInt();
+				System.out.println("두번쨰 : 1~9 숫자중 원하는 숫자를 하나만 입력하신 후에 엔터를 눌러주세요");
 				user[1] = sc.nextInt();
+				System.out.println("세번째 : 1~9 숫자중 원하는 숫자를 하나만 입력하신 후에 엔터를 눌러주세요");
 				user[2] = sc.nextInt();
+				System.out.println("네번쨰 : 1~9 숫자중 원하는 숫자를 하나만 입력하신 후에 엔터를 눌러주세요");
 				user[3] = sc.nextInt();
+				
 				// 이부분을 좀더 간단하게 줄이고 싶은데 피드백을 한번 받아보고싶다.
 				if(user[0]==com[0]) {
 					strike++;

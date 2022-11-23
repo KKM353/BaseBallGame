@@ -49,6 +49,8 @@ class BaseBallGame {
 				user[1] = sc.nextInt();
 				user[2] = sc.nextInt();
 				user[3] = sc.nextInt();
+				
+				
 				// 이부분을 좀더 간단하게 줄이고 싶은데 피드백을 한번 받아보고싶다.
 				if(user[0]==com[0]) {
 					strike++;

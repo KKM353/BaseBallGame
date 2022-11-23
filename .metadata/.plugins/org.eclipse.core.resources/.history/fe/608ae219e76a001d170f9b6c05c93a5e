@@ -41,14 +41,14 @@ class BaseBallGame {
 //				System.out.println("세번째 : 1~9 숫자중 원하는 숫자를 하나만 입력하신 후에 엔터를 눌러주세요");
 //				user[2] = sc.nextInt();
 //				System.out.println("네번쨰 : 1~9 숫자중 원하는 숫자를 하나만 입력하신 후에 엔터를 눌러주세요");
-//				user[3] = sc.nextInt()
-				System.out.println("");
-				System.out.println("사용자가 원하는 숫자를 4개 입력하여 주세요");
-				System.out.println("숫자 입력시 띄어쓰기로 구분되며 마지막에 엔터를 입력하여 주시면 됩니다.");
+//				user[3] = sc.nextInt();
+				System.out.println("숫자 4개 구분은 띄어쓰기 마지막엔터");
 				user[0] = sc.nextInt();
 				user[1] = sc.nextInt();
 				user[2] = sc.nextInt();
 				user[3] = sc.nextInt();
+				
+				
 				// 이부분을 좀더 간단하게 줄이고 싶은데 피드백을 한번 받아보고싶다.
 				if(user[0]==com[0]) {
 					strike++;

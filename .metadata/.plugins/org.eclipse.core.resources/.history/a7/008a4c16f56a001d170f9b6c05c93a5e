@@ -29,8 +29,14 @@ class BaseBallGame {
 				if(!(com[0]==com[1] || com[0]==com[2] || com[1]==com[2] || com[1]==com[3] || com[2]==com[3] || com[3]==com[0])){ 
 					break;
 				}
+			System.out.println("숫자가 생성되었습니다 : " + com[0] + com[1] + com[2] + com[3]); // 생성된 숫자 확인 및 무한루프를 도는지 확인
+			userStart();
+			break;
 			}
-			System.out.println("숫자가 생성되었습니다 : " + com[0] + com[1] + com[2] + com[3]); // 생성된 숫자 확인 및 무한루프를 도는지 확인 
+			
+		}
+	}
+	void userStart() {
 			for(int i=1; i<=pullGame; i++) { //유저가 플레이하는 로직은 이쪽이기에 이쪽의 while문을 for문으로 변경
 				strike = 0; // 새로운 게임이 시작될때마다 초기화
 				ball = 0;
@@ -99,7 +105,7 @@ class BaseBallGame {
 			if(reGame==0) { //재시작시 처음으로 돌아가서 gameCount +1
 				System.out.println("게임을 재시작합니다.");
 				System.out.println("-------------------------------------");
-				continue;
+				return;
 			}else { // 종료시 바로 게임 종료
 				System.out.println("게임을 종료합니다.");
 				int avg = quizCount/gameCount;
@@ -108,12 +114,12 @@ class BaseBallGame {
 				System.out.println("");
 				System.exit(0);
 			}
-		}
 	}
 
 	public static void main(String[] args) 
 	{
 		BaseBallGame bg = new BaseBallGame();
 		bg.GameStart();
+
 	}
 }

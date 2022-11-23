@@ -2,7 +2,7 @@
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_UdBN0GoqEe2AW7x9WTk1Gg" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_UdBN0WoqEe2AW7x9WTk1Gg" bindingContexts="_UdBN2moqEe2AW7x9WTk1Gg">
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BaseBallGame.java&quot; tooltip=&quot;BaseBall/src/BaseBallGame.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/BaseBall/src/BaseBallGame.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_UdBN0WoqEe2AW7x9WTk1Gg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_VbBHI2oqEe2AW7x9WTk1Gg" label="%trimmedwindow.label.eclipseSDK" x="64" y="64" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_UdBN0WoqEe2AW7x9WTk1Gg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_VbBHI2oqEe2AW7x9WTk1Gg" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -205,7 +205,7 @@
         <tags>EditorStack</tags>
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_GWJkUGorEe2AW7x9WTk1Gg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BaseBallGame.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BaseBallGame.java&quot; partName=&quot;BaseBallGame.java&quot; title=&quot;BaseBallGame.java&quot; tooltip=&quot;BaseBall/src/BaseBallGame.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BaseBall/src/BaseBallGame.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;3465&quot; selectionTopPixel=&quot;1320&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BaseBallGame.java&quot; partName=&quot;BaseBallGame.java&quot; title=&quot;BaseBallGame.java&quot; tooltip=&quot;BaseBall/src/BaseBallGame.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/BaseBall/src/BaseBallGame.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;239&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -359,7 +359,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Vgxw4moqEe2AW7x9WTk1Gg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Vg7h52oqEe2AW7x9WTk1Gg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_Uez-oWoqEe2AW7x9WTk1Gg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_KMa2wGrlEe2vwZ0ufVjgPA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_Uez-oWoqEe2AW7x9WTk1Gg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Vgxw42oqEe2AW7x9WTk1Gg" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -390,7 +390,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Vgxw6moqEe2AW7x9WTk1Gg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Vg7h9GoqEe2AW7x9WTk1Gg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Uez-I2oqEe2AW7x9WTk1Gg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_KMkAsGrlEe2vwZ0ufVjgPA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Uez-I2oqEe2AW7x9WTk1Gg"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_Vgxw62oqEe2AW7x9WTk1Gg" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
